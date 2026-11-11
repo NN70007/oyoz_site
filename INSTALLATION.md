@@ -169,7 +169,7 @@ Le serveur local répond aux appels de l'espace avec `Code.gs` simulé ; les pub
 Toute modification de `espace/serveur/` envoyée sur `main` lance la procédure GitHub « Serveur Apps Script » : tests, envoi du code dans Apps Script (clasp), nouvelle version, et passage du déploiement existant sur cette version (même adresse `/exec`). Si un test échoue, rien n'est publié.
 
 - Identifiants du script et du déploiement : écrits dans `.github/workflows/serveur-apps-script.yml` (ce ne sont pas des secrets).
-- Clé : secret GitHub `CLASPRC_JSON` (compte jb@niedercorn.com, la même clé pour niderlabs_site et oyoz_site).
+- Clé : secret GitHub `CLASPRC_JSON` (compte jb@niedercorn.com).
 
 Pour refaire la clé (après révocation, par exemple), sans rien installer :
 1. API Apps Script activée sur jb@niedercorn.com : script.google.com/home/usersettings.

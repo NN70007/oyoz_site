@@ -1,6 +1,6 @@
 # Socle de site statique
 
-Base commune de niderlabs.com, nidervoice.com et oyoz.com : un site public minimal et un espace d'administration pour publier des actualités, sans serveur à entretenir. Architecture inspirée de celle d'un site existant, réduite à l'essentiel.
+Site statique : un site public minimal et un espace d'administration pour publier des actualités, sans serveur à entretenir. Architecture inspirée de celle d'un site existant, réduite à l'essentiel.
 
 - **Site public** — `index.html`, `styles.css`, `site.js`, `404.html`. Le nom et le domaine du site sont lus dans `site.json`. Tant que `actualites.json` est vide (`[]`), la page affiche « en construction » ; sinon les articles apparaissent, du plus récent au plus ancien.
 - **Espace d'administration** — `espace/` : connexion (Google si `GOOGLE_CLIENT_ID` est renseigné, sinon code par e-mail), page **Accès** (droits *admin* et *actualités*) et **admin des actualités** (`espace/admin/`).
