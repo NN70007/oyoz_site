@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 120" role="img" aria-label="oyoz">
+  <title>oyoz</title>
+  <g fill="none" stroke="#F2F2EF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="52" cy="60" r="36"/>
+    <path d="M128 26 L164 66 M200 26 L164 66 L146 104"/>
+    <circle cx="276" cy="60" r="36"/>
+    <path d="M346 28 H406 L346 92 H406"/>
+  </g>
+</svg>
